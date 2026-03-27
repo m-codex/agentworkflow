@@ -15,10 +15,10 @@ export function Footer() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <div className="text-4xl md:text-5xl font-medium mb-4">
+            <div className="font-medium mb-4">
               <span className="text-[#0047ab]">mw</span>@agnt.ch
             </div>
-            <div className="text-2xl md:text-3xl font-light text-[#1A1A1A]/40 mb-12">
+            <div className="font-light text-[#1A1A1A]/40 mb-12">
               agentworkflow.ch
             </div>
 
@@ -44,7 +44,7 @@ export function Footer() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-10 h-10 md:w-16 md:h-16 bg-[#0047ab] rounded-full -ml-[2rem] mb-[2rem]"
+                className="w-10 h-10 md:w-16 md:h-16 bg-[#0047ab] rounded-full mb-[2rem]"
               />
             </motion.div>
           </div>
