@@ -36,7 +36,7 @@ export function Footer() {
               className="absolute right-[-10%] bottom-[-20%] select-none pointer-events-none"
             >
               <span className="text-[20rem] md:text-[32rem] leading-none font-medium text-[#1A1A1A]/[0.03]">
-                a.
+                a
               </span>
             </motion.div>
             <motion.div
@@ -44,7 +44,7 @@ export function Footer() {
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 1, delay: 0.5 }}
-              className="absolute right-0 bottom-0 w-24 h-24 md:w-32 md:h-32 bg-[#0047ab] rounded-full translate-x-1/4 translate-y-1/4"
+              className="absolute right-0 bottom-0 w-12 h-12 bg-[#0047ab] rounded-full translate-x-1/4 translate-y-1/4"
             />
           </div>
         </div>
