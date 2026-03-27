@@ -11,7 +11,7 @@ export function Navigation() {
         <Link href="/" className="flex items-center space-x-0 text-2xl group">
           <span className="font-medium text-[#1A1A1A]">agent</span>
           <span className="font-light text-[#1A1A1A]">workflow</span>
-          <span className="w-1.5 h-1.5 rounded-full bg-[#0047ab] ml-1 mb-1 transition-transform group-hover:scale-125" />
+          <span className="font-bold text-[#0047ab]">workflow</span>
         </Link>
 
         {/* Links */}
