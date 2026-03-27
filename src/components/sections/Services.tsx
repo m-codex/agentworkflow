@@ -12,8 +12,8 @@ const services = [
   },
   {
     number: '02',
-    title: 'Agentic Architecture',
-    description: 'Design von autonomen KI-Agenten, die spezialisierte Aufgaben übernehmen und intelligent miteinander kommunizieren.',
+    title: 'Agentenarchitektur',
+    description: 'Design von Workflows und autonomer KI-Agenten zur Lösung spezialisierter Aufgaben unter Integration aller branchenüblichen Tools.',
     icon: IconCpu,
   },
   {
