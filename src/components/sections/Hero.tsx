@@ -11,7 +11,7 @@ export function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, ease: "easeOut" }}
-          className="text-3xl md:text-5xl font-medium tracking-tight mb-8"
+          className="text-3xl md:text-5xl font-medium tracking-tight mb-8 text-balance"
         >
           Intelligente KI-Agenten für Schweizer KMU.
         </motion.h1>
@@ -20,7 +20,7 @@ export function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
-          className="max-w-2xl text-lg md:text-xl font-light text-[#1A1A1A]/80 mb-12"
+          className="max-w-2xl text-lg md:text-xl font-light text-[#1A1A1A]/80 mb-12 text-balance"
         >
           Massgeschneiderte Workflows, die Ihre zeitraubenden Arbeitsschritte sicher ausführen. Weniger Aufwand im Arbeitsalltag, mehr Raum für Neues.
         </motion.p>
