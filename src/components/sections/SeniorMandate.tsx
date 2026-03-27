@@ -41,12 +41,12 @@ export function SeniorMandate() {
             transition={{ duration: 1.2 }}
             className="relative aspect-[4/5] bg-[#FAFAFA]"
           >
-            <Image
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop"
-              alt="Portrait"
-              fill
-              className="object-cover grayscale"
-            />
+            <Image 
+             src="/Max-Profilbild2.png" 
+             alt="Portrait" 
+             fill 
+             className="object-cover grayscale" 
+           />
           </motion.div>
         </div>
       </div>
