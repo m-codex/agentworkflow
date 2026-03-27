@@ -17,11 +17,24 @@ export function Navigation() {
         {/* Links */}
         
           <Link
+            href="#workflow"
+            className="text-sm font-light text-[#1A1A1A] hover:text-[#0047ab] transition-colors"
+          >
+            Workflow
+          </Link>
+          <Link
+            href="#expertise"
+            className="text-sm font-light text-[#1A1A1A] hover:text-[#0047ab] transition-colors"
+          >
+            Expertise
+          </Link>
+          <Link
             href="#kontakt"
             className="text-sm font-light text-[#1A1A1A] hover:text-[#0047ab] transition-colors"
           >
             Kontakt
           </Link>
+
           <Link
             href="#kontakt"
             className="text-sm text-white bg-[#1A1A1A] px-6 py-2 rounded-md hover:bg-[#0047ab] hover:text-white transition-all active:scale-95"
