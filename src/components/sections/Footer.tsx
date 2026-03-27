@@ -57,7 +57,7 @@ export function Footer() {
             <a href="#" className="hover:text-[#1A1A1A] transition-colors">Datenschutz</a>
           </div>
           <div className="text-xs font-light text-[#1A1A1A]/40">
-            © 2024 Werthmüller Agent Workflows
+            © 2026 Werthmüller Agent Workflows
           </div>
         </div>
       </div>
