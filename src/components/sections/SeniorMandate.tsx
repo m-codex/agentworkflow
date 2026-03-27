@@ -39,7 +39,7 @@ export function SeniorMandate() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1.2 }}
-            className="relative max-w-xl aspect-[1/1] bg-[#FAFAFA]"
+            className="relative max-w-lg aspect-[1/1] bg-[#FAFAFA]"
           >
             <Image 
              src="/Max-Profilbild2.png" 
