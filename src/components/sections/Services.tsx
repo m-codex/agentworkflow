@@ -5,16 +5,19 @@ import { IconSearch, IconCpu, IconBolt } from '@tabler/icons-react';
 
 const services = [
   {
+    number: '01',
     title: 'Prozessanalyse',
     description: 'Identifizierung von Schwachstellen und Ermittlung des grössten Automatisierungspotenzials in Ihren Abläufen.',
     icon: IconSearch,
   },
   {
+    number: '02',
     title: 'Agentic Architecture',
     description: 'Design von autonomen KI-Agenten, die spezialisierte Aufgaben übernehmen und intelligent miteinander kommunizieren.',
     icon: IconCpu,
   },
   {
+    number: '03',
     title: 'Nahtlose Integration',
     description: 'Implementierung der Workflows in Ihre bestehende Software-Landschaft ohne Unterbrechung des Betriebs.',
     icon: IconBolt,
