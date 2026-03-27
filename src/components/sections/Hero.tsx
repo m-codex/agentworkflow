@@ -10,9 +10,9 @@ export function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, ease: "easeOut" }}
-          className="text-3xl md:text-5xl font-medium tracking-tight mb-8 text-balance"
+          className="text-3xl md:text-5xl font-medium tracking-tight mb-8"
         >
-          Strategische KI-Automation für KMU.
+          Strategische Automation <br className="hidden md:block" /> mit agentic AI.
         </motion.h1>
 
         <motion.p
@@ -21,8 +21,8 @@ export function Hero() {
           transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
           className="max-w-2xl mx-auto text-lg md:text-xl font-light text-[#1A1A1A]/80 mb-12"
         >
-          Wir entwickeln maßgeschneiderte KI-Workflows für Schweizer KMU,
-          die repetitive Prozesse eliminieren und Raum für echte Innovation schaffen.
+          Massgeschneiderte KI-Workflows für Schweizer KMU,
+          die repetitive Prozesse eliminieren und Raum für echte Weiterentwicklung schaffen.
         </motion.p>
 
         <motion.div
