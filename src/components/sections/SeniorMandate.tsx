@@ -28,7 +28,7 @@ export function SeniorMandate() {
             </ul>
             <a
               href="#kontakt"
-              className="inline-block border border-[#1A1A1A] px-8 py-4 text-sm font-medium hover:bg-[#1A1A1A] hover:text-white transition-colors"
+              className="inline-block text-white bg-[#1A1A1A] px-8 py-4 text-sm font-medium hover:bg-[[#0047ab] transition-colors"
             >
               Anfrage Mandat
             </a>
