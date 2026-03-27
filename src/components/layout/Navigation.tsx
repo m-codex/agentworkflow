@@ -24,7 +24,7 @@ export function Navigation() {
           </Link>
           <Link
             href="#kontakt"
-            className="text-sm font-medium border-2 border-[#1A1A1A] px-6 py-2 rounded-sm hover:bg-[#1A1A1A] hover:text-white transition-all active:scale-95"
+            className="text-sm font-medium border-1 border-[#1A1A1A] px-6 py-2 rounded-md hover:bg-[#1A1A1A] hover:text-white transition-all active:scale-95"
           >
             Anfrage Mandat
           </Link>
