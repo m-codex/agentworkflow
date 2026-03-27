@@ -11,7 +11,7 @@ export function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, ease: "easeOut" }}
-          className="text-5xl md:text-7xl tracking-normal mb-8 text-balance"
+          className="text-5xl md:text-7xl text-light tracking-normal mb-8 text-balance"
         >
           Intelligente KI-Agenten für Schweizer KMU.
         </motion.h1>
