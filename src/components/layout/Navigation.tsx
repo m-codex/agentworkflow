@@ -11,7 +11,7 @@ export function Navigation() {
         <Link href="/" className="flex items-center space-x-0 text-xl group">
           <span className="font-medium text-[#1A1A1A]">agent</span>
           <span className="font-light text-[#1A1A1A]">workflow</span>
-          <span className="font-black text-[#0047ab]">.</span>
+          <span className="font-[1000] text-[#0047ab]">.</span>
         </Link>
 
         {/* Links */}
@@ -34,14 +34,14 @@ export function Navigation() {
           >
             Kontakt
           </Link>
-
+         </div>
           <Link
             href="#kontakt"
             className="text-sm text-white bg-[#1A1A1A] px-6 py-2 rounded-md hover:bg-[#0047ab] hover:text-white transition-all active:scale-95"
           >
             Anfrage Mandat
           </Link>
-       </div>
+       
       </nav>
     </header>
   );
