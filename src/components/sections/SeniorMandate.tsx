@@ -21,7 +21,7 @@ export function SeniorMandate() {
             <ul className="space-y-4 mb-10">
               {['Direkter Zugang zum Experten', 'Ganzheitliche Prozess-Strategie', 'Langfristige Begleitung & Optimierung'].map((item, i) => (
                 <li key={i} className="flex items-center font-light text-[#1A1A1A]/70">
-                  <div className="w-1.5 h-1.5 bg-[#0047ab] mr-3" />
+                  <div className="w-1.5 h-1.5 bg-[#0047ab] rounded-full mr-3" />
                   {item}
                 </li>
               ))}
