@@ -5,16 +5,19 @@ import { IconSearch, IconCpu, IconBolt } from '@tabler/icons-react';
 
 const services = [
   {
+    number: '01',
     title: 'Prozessanalyse',
     description: 'Identifizierung von Schwachstellen und Ermittlung des grössten Automatisierungspotenzials in Ihren Abläufen.',
     icon: IconSearch,
   },
   {
+    number: '02',
     title: 'Agentic Architecture',
     description: 'Design von autonomen KI-Agenten, die spezialisierte Aufgaben übernehmen und intelligent miteinander kommunizieren.',
     icon: IconCpu,
   },
   {
+    number: '03',
     title: 'Nahtlose Integration',
     description: 'Implementierung der Workflows in Ihre bestehende Software-Landschaft ohne Unterbrechung des Betriebs.',
     icon: IconBolt,
@@ -35,9 +38,8 @@ export function Services() {
               transition={{ duration: 0.8, delay: index * 0.1 }}
               className="flex flex-col"
             >
-              <div className="mb-6">
-                <service.icon className="w-8 h-8 text-[#0047ab] stroke-[1.5]" />
-              </div>
+
+              <span className"text-2xl font-light text-[#0047ab] mb-6">{service.number}</span>
               <h3 className="text-xl font-medium mb-4">{service.title}</h3>
               <p className="text-[#1A1A1A]/70 font-light leading-relaxed">
                 {service.description}
