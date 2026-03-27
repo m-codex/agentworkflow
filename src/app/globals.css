@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-alexandria), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --color-primary: #0047ab;
+  --color-background: #FAFAFA;
+  --color-foreground: #1A1A1A;
+}
+
+:root {
+  --background: #FAFAFA;
+  --foreground: #1A1A1A;
+}
+
+* {
+  @apply border-gray-200;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+/* Custom Utilities for the Swiss aesthetic */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
