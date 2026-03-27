@@ -6,20 +6,20 @@ import { IconSearch, IconCpu, IconBolt } from '@tabler/icons-react';
 const services = [
   {
     number: '01',
-    title: 'Prozessanalyse',
-    description: 'Identifizierung von Schwachstellen und Ermittlung des grössten Automatisierungspotenzials in Ihren Abläufen.',
+    title: 'Prozess-Analyse',
+    description: 'Ich identifiziere das größte Potenzial in Ihren Abläufen. Gemeinsam definieren wir die Aufgaben, die ein KI-Worflow für Sie übernehmen kann.',
     icon: IconSearch,
   },
   {
     number: '02',
-    title: 'Agentenarchitektur',
-    description: 'Design von Workflows und autonomer KI-Agenten zur Lösung spezialisierter Aufgaben unter Integration aller branchenüblichen Tools.',
+    title: 'Workflow-Design',
+    description: 'Ich entwickle die Logik Ihrer Agenten und verbinde die KI mit Ihren Business-Tools. So erledigen die Systeme Aufgaben sicher und im richtigen Kontext.',
     icon: IconCpu,
   },
   {
     number: '03',
     title: 'Nahtlose Integration',
-    description: 'Implementierung der Workflows in Ihre bestehende Software-Landschaft ohne Unterbrechung des Betriebs.',
+    description: 'Ich implementiere die Workflows nahtlos in Ihre bestehende Software-Landschaft ein, ohne dabei den Betrieb zu unterbrechen.',
     icon: IconBolt,
   },
 ];
