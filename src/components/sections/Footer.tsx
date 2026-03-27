@@ -27,28 +27,27 @@ export function Footer() {
           </motion.div>
 
           {/* Right: Watermark and Circle */}
-<div className="relative flex h-64 lg:h-[40rem] items-center justify-center overflow-visible">
-  {/* Das "a" als Hintergrund-Element */}
-  <motion.div
-    initial={{ opacity: 0 }}
-    whileInView={{ opacity: 1 }}
-    viewport={{ once: true }}
-    transition={{ duration: 2 }}
-    className="absolute inset-0 flex items-center justify-center select-none pointer-events-none"
-  >
-    <span className="relative text-[20rem] md:text-[32rem] leading-none font-medium text-[#1A1A1A]/[0.03] translate-y-[5%]">
-      a
-      {/* Der Punkt: Jetzt INNERHALB des Bewegungs-Radius vom "a" */}
-      <motion.div
-        initial={{ opacity: 0, scale: 0 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        viewport={{ once: true }}
-        transition={{ duration: 1, delay: 0.5 }}
-        className="absolute bottom-[15%] -right-[5%] w-10 h-10 md:w-14 md:h-14 bg-[#0047ab] rounded-full"
-      />
-    </span>
-  </motion.div>
-</div>
+          <div className="relative flex h-64 lg:h-auto flex items-end justify-end">
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 2 }}
+              className="absolute right-[-10%] bottom-[-20%] select-none pointer-events-none"
+            >
+              <span className="text-[20rem] md:text-[32rem] leading-none font-medium text-[#1A1A1A]/[0.03]">
+                a
+              </span>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1, delay: 0.5 }}
+              className="absolute right-0 bottom-0 w-12 h-12 bg-[#0047ab] rounded-full translate-x-1/4 translate-y-1/4"
+            />
+          </div>
+        </div>
 
         {/* Bottom: Legal & Copyright */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center pt-8 border-t border-[#1A1A1A]/5 gap-6">
