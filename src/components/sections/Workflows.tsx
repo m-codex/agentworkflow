@@ -80,9 +80,9 @@ const workflows: Workflow[] = [
     ],
   },
   {
-    category: 'Wissensdatenbank',
+    category: 'Interne Wissensdatenbank',
     title: 'Der Wissens-Agent',
-    description: 'Zentraler Zugriff auf Ihr gesamtes Firmen-Know-how.',
+    description: 'Zentraler interner Zugriff auf das gesamte Know-how Ihrer Firma.',
     steps: [
       {
         title: 'Semantische Suche',
