@@ -139,7 +139,7 @@ export function Workflows() {
                 <span className="text-xs font-medium uppercase tracking-wider text-[#0047ab] mb-4 block">
                   {workflow.category}
                 </span>
-                <h3 className="text-2xl md:text-3xl font-medium mb-4">{workflow.title}</h3>
+                <h3 className="text-2xl md:text-3xl  mb-4">{workflow.title}</h3>
                 <p className="text-[#1A1A1A]/70 font-light leading-relaxed">
                   {workflow.description}
                 </p>
