@@ -22,7 +22,7 @@ export function Hero() {
           transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
           className="max-w-2xl text-lg md:text-xl font-light text-[#1A1A1A]/80 mb-12 text-balance"
         >
-          Massgeschneiderte Workflows, die Ihre zeitraubenden Arbeitsschritte sicher ausführen. Weniger Aufwand im Arbeitsalltag, mehr Raum für Neues.
+           Massgeschneiderte KI-Workflows, die repetitive Prozesse übernehmen und so Raum für echte Weiterentwicklung schaffen. 
         </motion.p>
 
         <motion.div
