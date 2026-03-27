@@ -22,7 +22,7 @@ const workflows = [
 
 export function Workflows() {
   return (
-    <section id="workflows" className="py-24 px-6">
+    <section id="workflows" className="py-24 px-6 border-t border-[#1A1A1A]/5">
       <div className="max-w-7xl mx-auto">
         <motion.h2
           initial={{ opacity: 0 }}
