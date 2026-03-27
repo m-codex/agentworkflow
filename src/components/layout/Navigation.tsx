@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 
 export function Navigation() {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 px-6 bg-white/80 backdrop-blur-md border-b border-[#1A1A1A]/5">
+    <header className="fixed top-0 left-0 right-0 z-50 px-6 bg-white/80 Xbackdrop-blur-md border-b border-[#1A1A1A]/5">
       <nav className="max-w-7xl mx-auto h-24 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-0 text-xl group">
