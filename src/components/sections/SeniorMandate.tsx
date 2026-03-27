@@ -14,9 +14,9 @@ export function SeniorMandate() {
             viewport={{ once: true }}
             transition={{ duration: 1 }}
           >
-            <h2 className="text-3xl md:text-4xl font-medium mb-8">Exklusive Senior Mandate</h2>
+            <h2 className="text-4xl md:text-5xl font-light mb-8">Exklusive Mandate<span className="text-[#0047ab] font-bold">.</span></h2>
             <p className="text-lg font-light text-[#1A1A1A]/80 mb-8 leading-relaxed">
-              Ich setze auf Qualität statt Quantität. Unsere Zusammenarbeit erfolgt ausschließlich im Rahmen exklusiver Mandate, um eine tiefgreifende Integration und maximale Wirkung Ihrer KI-Strategie zu garantieren.
+              Ich setze auf Qualität statt Quantität. Unsere Zusammenarbeit erfolgt ausschließlich im Rahmen exklusiver Mandate, um eine optimale Integration und maximale Wirkung Ihrer KI-Strategie zu garantieren.
             </p>
             <ul className="space-y-4 mb-10">
               {['Direkter Zugang zum Experten', 'Ganzheitliche Prozess-Strategie', 'Langfristige Begleitung & Optimierung'].map((item, i) => (
@@ -39,7 +39,7 @@ export function SeniorMandate() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1.2 }}
-            className="relative max-w-xl aspect-[1/1] bg-[#FAFAFA]"
+            className="relative max-w-lg aspect-[1/1] bg-[#FAFAFA]"
           >
             <Image 
              src="/Max-Profilbild2.png" 
