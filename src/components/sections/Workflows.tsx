@@ -123,7 +123,7 @@ export function Workflows() {
           transition={{ duration: 1 }}
           className="text-4xl md:text-5xl font-light mb-24"
         >
-          Workflows in Aktion
+          Workflows in Aktion<span className="text-[#0047ab] font-bold">.</span>
         </motion.h2>
 
         <div className="flex flex-col gap-32">
