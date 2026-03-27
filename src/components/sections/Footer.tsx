@@ -27,7 +27,7 @@ export function Footer() {
           </motion.div>
 
           {/* Right: Watermark and Circle */}
-          <div className="relative h-64 lg:h-auto flex items-end justify-end">
+          <div className="relative flex h-64 lg:h-auto flex items-end justify-end">
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
