@@ -10,9 +10,9 @@ export function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, ease: "easeOut" }}
-          className="text-3xl md:text-5xl font-medium tracking-tight mb-8"
+          className="text-3xl md:text-5xl font-medium tracking-tight mb-8 text-balance"
         >
-          Strategische Automation <br className="hidden md:block" /> mit agentic AI.
+          Strategische KI-Automation für KMU.
         </motion.h1>
 
         <motion.p
