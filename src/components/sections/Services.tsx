@@ -6,7 +6,7 @@ import { IconSearch, IconCpu, IconBolt } from '@tabler/icons-react';
 const services = [
   {
     title: 'Prozessanalyse',
-    description: 'Wir identifizieren Ineffizienzen in Ihren bestehenden Abläufen und finden das größte Potenzial für Automatisierung.',
+    description: 'Identifizierung von Schwachstellen und Ermittlung des grössten Automatisierungspotenzials in Ihren Abläufen.',
     icon: IconSearch,
   },
   {
