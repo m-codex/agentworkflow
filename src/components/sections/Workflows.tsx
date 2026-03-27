@@ -189,7 +189,7 @@ export function Workflows() {
                     whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.8, delay: stepIndex * 0.1 }}
-                    className={`p-8 border border-[#1A1A1A]/10 bg-[#FAFAFA] flex flex-col justify-between hover:border-[#0047ab]/30 transition-colors ${step.colSpan} ${step.rowSpan}`}
+                    className={`p-8 border border-[#1A1A1A]/10 bg-white rounded-lg flex flex-col justify-between hover:border-[#0047ab]/30 transition-colors ${step.colSpan} ${step.rowSpan}`}
                   >
                     <div>
                       <h4 className="text-lg font-medium mb-3">{step.title}</h4>
