@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export function Hero() {
   return (
-    <section id="hero" className="flex pt-48 pb-20 md:pt-60 md:pb-32 px-6 border-y border-[#1A1A1A]/5">
+    <section id="hero" className="flex pt-48 pb-12 md:pt-60 md:pb-24 px-6 border-y border-[#1A1A1A]/5">
       <div className="flex flex-col lg:flex-row max-w-7xl mx-auto">
        <div> 
         <motion.h1
@@ -47,7 +47,7 @@ export function Hero() {
               transition={{ duration: 0.5 }}
               className="relative flex items-baseline select-none pointer-events-none"
             >
-              <span className="text-[18rem] md:text-[32rem] leading-none font-medium text-[#1A1A1A]/[0.03]">
+              <span className="text-[24rem] md:text-[32rem] leading-none font-medium text-[#1A1A1A]/[0.03]">
                 a
               </span>
               <motion.div
