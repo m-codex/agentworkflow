@@ -7,7 +7,7 @@ const services = [
   {
     number: '01',
     title: 'Prozess-Analyse',
-    description: 'Ich identifiziere das größte Potenzial in Ihren Abläufen. Gemeinsam definieren wir die Aufgaben, die ein KI-Worflow für Sie übernehmen kann.',
+    description: 'Ich identifiziere das grösste Potenzial in Ihren Abläufen. Gemeinsam definieren wir die Aufgaben, die ein KI-Worflow für Sie übernehmen kann.',
     icon: IconSearch,
   },
   {
