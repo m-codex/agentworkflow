@@ -6,6 +6,7 @@ export function Hero() {
   return (
     <section id="hero" className="flex pt-48 pb-20 md:pt-60 md:pb-32 px-6 border-y border-[#1A1A1A]/5">
       <div className="max-w-7xl mx-auto">
+       <div> 
         <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -58,6 +59,7 @@ export function Hero() {
               />
             </motion.div>
           </div>
+        </div>
     </section>
   );
 }
