@@ -33,7 +33,7 @@ export function Footer() {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              transition={{ duration: 2 }}
+              transition={{ duration: 0.5 }}
               className="relative flex items-baseline select-none pointer-events-none"
             >
               <span className="text-[18rem] md:text-[32rem] leading-none font-medium text-[#1A1A1A]/[0.03]">
@@ -43,12 +43,12 @@ export function Footer() {
                 initial={{ opacity: 0, scale: 0.5 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
-                transition={{ duration: 1, delay: 0.5 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
                 className="w-10 h-10 md:w-16 md:h-16 bg-[#0047ab] rounded-full -ml-[2rem] mb-[2rem]"
               />
             </motion.div>
           </div>
-        </div> {/* Hier war das schließende Div für das Grid-System wichtig */}
+        </div>
 
         {/* Bottom: Legal & Copyright */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center pt-8 border-t border-[#1A1A1A]/5 gap-6">
