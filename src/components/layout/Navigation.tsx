@@ -32,7 +32,7 @@ export function Navigation() {
     <header className="fixed top-0 left-0 right-0 z-50 px-6 bg-white border-b border-[#1A1A1A]/5">
       <nav className="max-w-7xl mx-auto h-24 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center space-x-0 text-xl group z-50">
+        <Link href="/" className="flex items-center space-x-0 text-2xl group z-50">
           <span className="font-medium text-[#1A1A1A]">agent</span>
           <span className="font-light text-[#1A1A1A]">workflow</span>
           <span className="font-[1000] text-[#0047ab]">.</span>
