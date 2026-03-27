@@ -15,7 +15,7 @@ export function Navigation() {
         </Link>
 
         {/* Links */}
-        
+         <div className="flex items-center space-x-12">
           <Link
             href="#workflow"
             className="text-sm font-light text-[#1A1A1A] hover:text-[#0047ab] transition-colors"
@@ -41,7 +41,7 @@ export function Navigation() {
           >
             Anfrage Mandat
           </Link>
-       
+       </div>
       </nav>
     </header>
   );
