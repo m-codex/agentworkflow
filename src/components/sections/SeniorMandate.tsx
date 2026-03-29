@@ -14,7 +14,7 @@ export function SeniorMandate() {
             viewport={{ once: true }}
             transition={{ duration: 1 }}
           >
-            <h2 className="text-2xl md:text-3xl font-light mb-8">Exklusive Mandate<span className="text-primary font-bold">.</span></h2>
+            <h2 className="text-3xl md:text-4xl font-light mb-8">Exklusive Mandate<span className="text-primary font-bold">.</span></h2>
             <p className="text-lg font-light text-foreground/80 mb-8 leading-relaxed">
               Ich setze auf Qualität statt Quantität. Unsere Zusammenarbeit erfolgt ausschließlich im Rahmen exklusiver Mandate, um eine optimale Integration und maximale Wirkung Ihrer KI-Strategie zu garantieren.
             </p>
