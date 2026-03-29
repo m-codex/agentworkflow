@@ -34,7 +34,7 @@ export function Navigation() {
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-0 text-2xl group z-50">
           <span className="font-medium text-foreground">agent</span>
-          <span className="font-light text-foreground">workflow</span>
+          <span className="font-light text-foreground">works</span>
           <span className="font-[1000] text-primary">.</span>
         </Link>
 
