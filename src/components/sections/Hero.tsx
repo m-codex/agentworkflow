@@ -32,7 +32,7 @@ export function Hero() {
         >
           <a
             href="#workflows"
-            className="inline-block bg-primary text-white text-lg px-6 py-3 rounded-md hover:bg-primary-hover transition-colors"
+            className="inline-block bg-primary font-light text-white text-lg px-6 py-3 rounded-md hover:bg-primary-hover transition-colors"
           >
             Beispiel-Workflows
           </a>
