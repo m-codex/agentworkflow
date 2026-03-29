@@ -121,7 +121,7 @@ export function Workflows() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 1 }}
-          className="text-4xl md:text-5xl font-light mb-24"
+          className="text-2xl md:text-3xl font-light mb-24"
         >
           Workflows in Aktion<span className="text-primary font-bold">.</span>
         </motion.h2>
@@ -139,7 +139,7 @@ export function Workflows() {
                 <span className="text-xs font-medium uppercase tracking-wider text-primary mb-4 block">
                   {workflow.category}
                 </span>
-                <h3 className="text-2xl md:text-3xl  mb-4">{workflow.title}</h3>
+                <h3 className="text-xl md:text-xl  mb-4">{workflow.title}</h3>
                 <p className="text-foreground/70 font-light leading-relaxed">
                   {workflow.description}
                 </p>
