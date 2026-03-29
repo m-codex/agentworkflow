@@ -29,13 +29,13 @@ export function Navigation() {
   }, [isOpen]);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 px-6 bg-white border-b border-[#1A1A1A]/5">
+    <header className="fixed top-0 left-0 right-0 z-50 px-6 bg-white border-b border-foreground/5">
       <nav className="max-w-7xl mx-auto h-24 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-0 text-2xl group z-50">
-          <span className="font-medium text-[#1A1A1A]">agent</span>
-          <span className="font-light text-[#1A1A1A]">workflow</span>
-          <span className="font-[1000] text-[#0047ab]">.</span>
+          <span className="font-medium text-foreground">agent</span>
+          <span className="font-light text-foreground">workflow</span>
+          <span className="font-[1000] text-primary">.</span>
         </Link>
 
         {/* Desktop Links */}
@@ -44,14 +44,14 @@ export function Navigation() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-light text-[#1A1A1A] hover:text-[#0047ab] transition-colors"
+              className="text-sm font-light text-foreground hover:text-primary transition-colors"
             >
               {link.label}
             </Link>
           ))}
           <Link
             href="#kontakt"
-            className="text-sm text-white bg-[#1A1A1A] px-6 py-2 rounded-sm hover:bg-[#0047ab] hover:text-white transition-all active:scale-95"
+            className="text-sm text-white bg-foreground px-6 py-2 rounded-sm hover:bg-primary hover:text-white transition-all active:scale-95"
           >
             Anfrage Mandat
           </Link>
@@ -60,7 +60,7 @@ export function Navigation() {
         {/* Mobile Toggle */}
         <button
           onClick={toggleMenu}
-          className="md:hidden p-2 text-[#1A1A1A] z-50 focus:outline-none"
+          className="md:hidden p-2 text-foreground z-50 focus:outline-none"
           aria-label="Toggle menu"
         >
           {isOpen ? <IconX size={24} stroke={1.5} /> : <IconMenu2 size={24} stroke={1.5} />}
@@ -83,7 +83,7 @@ export function Navigation() {
                   key={link.href}
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className="text-2xl font-light text-[#1A1A1A] hover:text-[#0047ab] transition-colors"
+                  className="text-2xl font-light text-foreground hover:text-primary transition-colors"
                 >
                   {link.label}
                 </Link>
@@ -91,7 +91,7 @@ export function Navigation() {
               <Link
                 href="#kontakt"
                 onClick={() => setIsOpen(false)}
-                className="inline-block text-lg text-white bg-[#1A1A1A] px-8 py-4 rounded-sm hover:bg-[#0047ab] hover:text-white transition-all text-center"
+                className="inline-block text-lg text-white bg-foreground px-8 py-4 rounded-sm hover:bg-primary hover:text-white transition-all text-center"
               >
                 Anfrage Mandat
               </Link>
