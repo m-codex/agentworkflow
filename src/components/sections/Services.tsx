@@ -39,9 +39,9 @@ export function Services() {
               className="flex flex-col"
             >
 
-               <span className="text-3xl font-light text-[#0047ab] mb-6">{service.number}</span>
+               <span className="text-3xl font-light text-primary mb-6">{service.number}</span>
               <h3 className="text-xl font-medium mb-4">{service.title}</h3>
-              <p className="text-[#1A1A1A]/70 font-light leading-relaxed">
+              <p className="text-foreground/70 font-light leading-relaxed">
                 {service.description}
               </p>
             </motion.div>

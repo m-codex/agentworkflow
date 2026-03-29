@@ -14,21 +14,21 @@ export function SeniorMandate() {
             viewport={{ once: true }}
             transition={{ duration: 1 }}
           >
-            <h2 className="text-4xl md:text-5xl font-light mb-8">Exklusive Mandate<span className="text-[#0047ab] font-bold">.</span></h2>
-            <p className="text-lg font-light text-[#1A1A1A]/80 mb-8 leading-relaxed">
+            <h2 className="text-4xl md:text-5xl font-light mb-8">Exklusive Mandate<span className="text-primary font-bold">.</span></h2>
+            <p className="text-lg font-light text-foreground/80 mb-8 leading-relaxed">
               Ich setze auf Qualität statt Quantität. Unsere Zusammenarbeit erfolgt ausschließlich im Rahmen exklusiver Mandate, um eine optimale Integration und maximale Wirkung Ihrer KI-Strategie zu garantieren.
             </p>
             <ul className="space-y-4 mb-10">
               {['Direkter Zugang zum Experten', 'Ganzheitliche Prozess-Strategie', 'Langfristige Begleitung & Optimierung'].map((item, i) => (
-                <li key={i} className="flex items-center font-light text-[#1A1A1A]/70">
-                  <div className="w-1.5 h-1.5 bg-[#0047ab] rounded-full mr-3" />
+                <li key={i} className="flex items-center font-light text-foreground/70">
+                  <div className="w-1.5 h-1.5 bg-primary rounded-full mr-3" />
                   {item}
                 </li>
               ))}
             </ul>
             <a
               href="#kontakt"
-              className="inline-block text-white bg-[#1A1A1A] px-8 py-4 text-sm font-medium rounded-md hover:bg-[[#0047ab] transition-colors"
+              className="inline-block text-white bg-foreground px-8 py-4 text-sm font-medium rounded-md hover:bg-primary transition-colors"
             >
               Anfrage Mandat
             </a>
@@ -39,7 +39,7 @@ export function SeniorMandate() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1.2 }}
-            className="relative max-w-lg aspect-[1/1] bg-[#FAFAFA]"
+            className="relative max-w-lg aspect-[1/1] bg-background"
           >
             <Image 
              src="/Max-Profilbild2.png" 

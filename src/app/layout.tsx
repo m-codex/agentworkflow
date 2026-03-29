@@ -23,7 +23,7 @@ export default function RootLayout({
       lang="de"
       className={`${alexandria.variable} font-sans h-full antialiased`}
     >
-      <body className="min-h-full bg-[#FAFAFA] text-[#1A1A1A]">
+      <body className="min-h-full bg-background text-foreground">
         {children}
       </body>
     </html>

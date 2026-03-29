@@ -114,7 +114,7 @@ const workflows: Workflow[] = [
 
 export function Workflows() {
   return (
-    <section id="workflows" className="py-24 px-6 border-y border-[#1A1A1A]/5">
+    <section id="workflows" className="py-24 px-6 border-y border-foreground/5">
       <div className="max-w-7xl mx-auto">
         <motion.h2
           initial={{ opacity: 0 }}
@@ -123,7 +123,7 @@ export function Workflows() {
           transition={{ duration: 1 }}
           className="text-4xl md:text-5xl font-light mb-24"
         >
-          Workflows in Aktion<span className="text-[#0047ab] font-bold">.</span>
+          Workflows in Aktion<span className="text-primary font-bold">.</span>
         </motion.h2>
 
         <div className="flex flex-col gap-32">
@@ -136,11 +136,11 @@ export function Workflows() {
                 transition={{ duration: 0.8 }}
                 className="max-w-2xl mb-12"
               >
-                <span className="text-xs font-medium uppercase tracking-wider text-[#0047ab] mb-4 block">
+                <span className="text-xs font-medium uppercase tracking-wider text-primary mb-4 block">
                   {workflow.category}
                 </span>
                 <h3 className="text-2xl md:text-3xl  mb-4">{workflow.title}</h3>
-                <p className="text-[#1A1A1A]/70 font-light leading-relaxed">
+                <p className="text-foreground/70 font-light leading-relaxed">
                   {workflow.description}
                 </p>
               </motion.div>
@@ -153,11 +153,11 @@ export function Workflows() {
                     whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.8, delay: stepIndex * 0.1 }}
-                    className={`p-8 border border-[#1A1A1A]/10 bg-white rounded-lg flex flex-col justify-between hover:border-[#0047ab]/30 transition-colors ${step.colSpan} ${step.rowSpan}`}
+                    className={`p-8 border border-foreground/10 bg-white rounded-lg flex flex-col justify-between hover:border-primary/30 transition-colors ${step.colSpan} ${step.rowSpan}`}
                   >
                     <div>
                       <h4 className="text-lg font-medium mb-3">{step.title}</h4>
-                      <p className="text-[#1A1A1A]/70 text-sm font-light leading-relaxed">
+                      <p className="text-foreground/70 text-sm font-light leading-relaxed">
                         {step.description}
                       </p>
                     </div>
