@@ -4,14 +4,14 @@ import { motion } from 'framer-motion';
 
 export function Hero() {
   return (
-    <section id="hero" className="flex pt-48 pb-12 md:pt-60 md:pb-24 px-6 bg-white border-b border-foreground/5">
+    <section id="hero" className="flex pt-48 pb-12 md:pt-60 md:pb-24 px-6 border-b border-foreground/5">
       <div className="flex flex-col lg:flex-row max-w-7xl mx-auto">
        <div> 
         <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, ease: "easeOut" }}
-          className="text-2xl md:text-2xl font-light tracking-normal mb-8 text-balance"
+          className="text-3xl md:text-4xl font-light tracking-normal mb-8 text-balance"
         >
           Intelligente KI-Agenten für Schweizer KMU.
         </motion.h1>
