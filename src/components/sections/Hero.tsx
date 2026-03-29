@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export function Hero() {
   return (
-    <section id="hero" className="flex pt-48 pb-12 md:pt-60 md:pb-24 px-6 border-y border-foreground/5">
+    <section id="hero" className="flex pt-48 pb-12 md:pt-60 md:pb-24 px-6 bg-white border-b border-foreground/5">
       <div className="flex flex-col lg:flex-row max-w-7xl mx-auto">
        <div> 
         <motion.h1
