@@ -19,7 +19,7 @@ export function Footer() {
               <span className="text-primary">mw</span>@agnt.ch
             </div>
             <div className="font-light text-foreground/40 mb-12">
-              agentworkflow.ch
+              agentworks.ch
             </div>
 
             <div className="text-sm font-light text-foreground/50">
